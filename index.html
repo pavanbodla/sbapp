@@ -1,0 +1,40 @@
+<!DOCTYPE=html>
+<html ng-app="twitterApp">
+<title>Twitter App</title>
+    <head>
+    <!-- styles -->
+        <link href="content/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+        <link href="content/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+        <link href="content/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="content/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        
+        
+        <!-- scripts -->
+        
+        <script src="vendor/angular-ui-router.js" type="text/javascript"></script>
+        <script src="vendor/angular.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap.js"  type="text/javascript"></script>
+        <script src="vendor/jquery-2.2.0.js" type="text/javascript"></script>
+        <script src="app/app.js" type="text/javascript"></script>
+        <script src="app/common/constants.js" type="text/javascript"></script>
+
+        
+    
+    </head>
+<body>
+    <div class="container" ng-controller="mainCtrl">
+    <div ng-include="navbarUrl"></div>
+		<div ng-include="contentUrl"></div>
+    
+    
+    </div>
+    <script src="app/common/mainctrl.js" type="text/javascript"></script>
+    
+    </body>
+
+
+
+
+
+
+</html>
